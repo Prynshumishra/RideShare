@@ -27,26 +27,20 @@ const configuredOrigins = (process.env.ORIGIN || "")
   .map((origin) => origin.trim().replace(/^'+|'+$/g, "").replace(/^\"+|\"+$/g, ""))
   .filter(Boolean);
 
-const devOrigins = [
-  "https://ride-share-pm.vercel.app/",
+const allowedOrigins = [
+  "https://ride-share-pm.vercel.app"
 ];
 
-const allowedOrigins = Array.from(new Set([
-  ...configuredOrigins,
-  ...(process.env.NODE_ENV === "production" ? [] : devOrigins),
-]));
-
-//middlewares
 app.use(cors({
-    origin: (origin, callback) => {
-      if (!origin || allowedOrigins.length === 0 || allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
-      return callback(new Error("Not allowed by CORS"));
-    },
-    credentials: true,
-  }
-))
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
+}));
 app.use(cookieParser())
 app.use(express.json())
 
