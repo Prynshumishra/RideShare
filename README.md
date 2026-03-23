@@ -8,17 +8,29 @@ RideShare is a full-stack ride-sharing platform that intelligently connects peop
 
 ✨ Core Highlights
 🚘 Dual Role System – Be a Driver, Passenger, or both
+
 📍 Smart Matching Engine – Connects users based on routes
+
 ⚡ Instant + Scheduled Booking – Travel your way
+
 💬 Real-Time Communication – Chat before confirming rides
+
 ⭐ Trust System – Ratings & reviews for transparency
+
 👤 User Profiles – Personalized ride experience
+
 🧠 How It Works
+
 Sign Up / Login
+
 Create or Search Ride
+
 Match with Nearby Routes
+
 Connect via Chat
+
 Book & Travel Together 🚗
+
 🛠️ Tech Architecture
 🎨 Frontend
 
