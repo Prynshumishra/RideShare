@@ -60,6 +60,7 @@ Book & Travel Together 🚗
 | cors       | Secure API access   |
 
 🏗️ Project Structure
+
 RideShare/
 │
 ├── frontend/        # React application
@@ -68,28 +69,51 @@ RideShare/
 ├── models/          # Database schemas
 ├── controllers/     # Business logic
 └── utils/           # Helper functions
+
+
 🔥 Key Features Breakdown
+
 👤 Profile Management
-Edit personal details
-Manage ride preferences
+
+1. Edit personal details
+
+2. Manage ride preferences
+
 🚘 Flexible Ride System
-Switch roles anytime
-Create or join rides easily
+
+1. Switch roles anytime
+
+2. Create or join rides easily
+   
 📍 Destination Matching
-Intelligent ride pairing
-Optimized route-based suggestions
+
+1. Intelligent ride pairing
+   
+3. Optimized route-based suggestions
+   
 📅 Pre-Booking
-Plan trips in advance
-Ideal for daily commuters
+
+1. Plan trips in advance
+  
+2. Ideal for daily commuters
+   
 ⚡ Instant Booking
-Join rides instantly
-No approval delays
+
+1. Join rides instantly
+   
+2. No approval delays
+   
 💬 In-App Chat
-Communicate with drivers/passengers
-Clarify pickup & ride details
+
+1. Communicate with drivers/passengers
+   
+2. Clarify pickup & ride details
+   
 ⭐ Ratings & Reviews
-Build community trust
-Improve ride quality
+
+1. Build community trust
+   
+3. Improve ride quality
 
 
 
@@ -98,20 +122,31 @@ Improve ride quality
 RideShare is built to:
 
 🚗 Reduce traffic congestion
+
 🌱 Promote eco-friendly travel
+
 💰 Lower commuting costs
+
 🤝 Build a trusted ride-sharing community
+
 🧩 Future Enhancements
+
 📍 Live GPS Tracking
-💳 Payment Integration (Stripe/Razorpay)
+
 🔔 Push Notifications
+
 🤖 AI-based Ride Matching
+
 📱 Mobile App (React Native)
 
 📌 Future Improvements
+
 Real-time ride tracking
+
 Payment integration
+
 Notifications system
+
 Advanced matching algorithm
 
 🤝 Contributing
@@ -129,10 +164,13 @@ Priyanshu Mishra
 Final Year B.Tech – Information Technology Madan Mohan Malaviya University of Technology (MMMUT)
 
 LinkedIn: https://linkedin.com/in/prynshumishr
+
 ⭐ Support
 
 If you like this project:
 
 ⭐ Star the repo
+
 🍴 Fork it
+
 🛠️ Contribute
